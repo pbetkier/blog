@@ -7,7 +7,7 @@ layout: default
 
   {% for post in paginator.posts%}
   <div class="post postContent">
-    <div  class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+    <div  class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %-d, %Y" }}</time>
     </div>
     <div class="postTag">
       {{post.tag}}
@@ -17,7 +17,7 @@ layout: default
     <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
     </div>
     <div class="postExt">
-   {{ post.content | strip_html | truncate:200}}
+   {{ post.excerpt | strip_html }}
     </div>
   </div>
 

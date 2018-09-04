@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: "PT Sans", Helvetica, Arial, sans-serif;
+$base-font-family: Georgia;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -249,10 +249,16 @@ pre {
 }
 
 .post {
-  font-family: "Source Sans Pro";
-  font-size: 18px;
-  font-weight: 300;
-  padding-top: 0;
+    --x-height-multiplier: 0.375;
+    --baseline-multiplier: 0.17;
+    font-family: Georgia;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    -webkit-font-smoothing: antialiased;
 }
 .home{
   padding-bottom: 5em;
@@ -299,13 +305,12 @@ pre {
 }
 .postContent {
   padding-top: 3.5em;
-  text-align: center;
 }
 .postDate {
   float: left;
   text-transform: uppercase;
   font-family: "Source Sans Pro";
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 300;
   letter-spacing: 2px;
   text-indent: 2px;
@@ -314,11 +319,8 @@ pre {
   float: right;
 }
 .postTitle {
-  font-weight: 400;
+  font-weight: bold;
   text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  text-indent: 3px;
 }
 /**
  * Site header
@@ -333,7 +335,7 @@ pre {
 .site-title {
   font-size: 64px;
   font-weight: 100;
-  font-family: 'PT Sans';
+  font-family: Georgia;
   text-transform: capitalize;
   font-weight: 500;
   margin-top: 1em;
@@ -342,7 +344,7 @@ pre {
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 6px;
-  font-family: 'Josefin Sans';
+  font-family: Georgia;
 }
 .exclamationMark {
   padding-left: 2em;
@@ -353,7 +355,7 @@ pre {
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 6px;
-  font-family: 'Josefin Sans';
+  font-family: Georgia;
   font-weight: 300;
   padding-top: 5em;
 }
@@ -361,13 +363,13 @@ pre {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-indent: 2px;
-  font-family: "PT Sans";
+  font-family: Georgia;
   font-size: 12px;
   text-align:center;
 }
 .page-tagline {
   font-size: 18px;
-  font-family: "PT Sans";
+  font-family: Georgia;
   text-align: center;
   text-transform: lowercase;
 }
@@ -433,7 +435,7 @@ pre {
   margin-left: 0;
 }
 .small-site-title {
-  font-family: "PT Sans";
+  font-family: Georgia;
 }
 .footer-col-wrapper {
   font-size: 15px;
@@ -441,7 +443,7 @@ pre {
   @extend %clearfix;
 }
 .footer-content {
-  font-family: "Josefin Sans";
+  font-family: Georgia;
   font-weight: 300;
   letter-spacing: 1px;
 }
@@ -485,6 +487,7 @@ pre {
  */
 .page-content {
   padding: 0;
+  margin-top: 50px;
 }
 .page-heading {
   font-size: 20px;
@@ -512,21 +515,13 @@ pre {
   margin-bottom: $spacing-unit;
 }
 .post-title {
-  font-size: 62px;
-
+  font-size: 32px;
   text-align: center;
-  font-family: "PT Sans";
-  font-weight: 900;
-  @include media-query($on-laptop) {
-    font-size: 36px;
-  }
+  font-family: Georgia;
 }
 .post-content {
   margin-bottom: $spacing-unit;
   padding-bottom: 3em !important;
-  p {
-    font-size: 1.5rem;
-  }
   h2 {
     font-size: 32px;
     @include media-query($on-laptop) {
