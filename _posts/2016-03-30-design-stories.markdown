@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Design Stories : Gravity"
+title: "Design stories: Gravity"
 date: 2016-03-30
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
