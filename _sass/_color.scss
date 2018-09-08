@@ -8,13 +8,13 @@
  * Light color palette
  */
 $l-text-color:       #111;
-$l-link-color:       #aaa;
+$l-link-color: #20999d;
 $l-background-color: #fdfdfd;
 $l-brand-color:      #2a7ae2;
 $l-grey-color:       #828282;
-$l-grey-color-light: lighten($l-grey-color, 40%);
+$l-grey-color-light: lighten($l-grey-color, 35%);
 $l-grey-color-dark:  darken($l-grey-color, 25%);
-$l-code: #EEF;
+$l-code: lighten($l-grey-color-light, 11%);
 $l-crimson: #DC143C;
 $l-nav: $l-link-color;
 $l-page: $l-link-color;
@@ -111,7 +111,7 @@ body.light {
 
   .site-title,
   .site-title:visited {
-    color: $l-grey-color-dark;
+    color: #45818e;
   }
 
   .site-navigation {
