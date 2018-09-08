@@ -6,9 +6,8 @@ permalink: /about/
 
 ## Piotr Betkier
 
-I'm a Software Engineer with 6+ years of commercial experience. My passions are
+I'm a software engineer with 6+ years of professional experience. My passion is
 building useful tools and reliable systems.
 
-Currently I'm employed at [Allegro](https://allegro.pl) where I develop its technical
-platform.
+Currently I develop the technical platform of [Allegro](https://allegro.pl).
 
