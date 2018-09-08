@@ -4,7 +4,7 @@ title : About
 permalink: /about/
 ---
 
-## About
+## Piotr Betkier
 
 Some guy.
 
