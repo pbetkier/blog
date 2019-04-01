@@ -6,6 +6,8 @@ permalink: /about/
 
 ## Piotr Betkier
 
+<img align="right" src="/img/ava.png" width="200">
+
 I'm a software engineer with 6+ years of professional experience. My passion is
 building useful tools and reliable systems.
 
