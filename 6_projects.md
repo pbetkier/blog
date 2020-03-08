@@ -9,6 +9,7 @@ permalink: /projects/
 Here is a list of notable open-source projects I'm involved in:
 
 - [Hermes](https://github.com/allegro/hermes)
+- [Envoy Control](https://github.com/allegro/envoy-control)
 - [marathon-consul](https://github.com/allegro/marathon-consul)
 
 Other:
