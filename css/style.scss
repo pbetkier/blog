@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: Georgia;
+$base-font-family: sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -253,7 +253,7 @@ pre {
 .post {
     --x-height-multiplier: 0.375;
     --baseline-multiplier: 0.17;
-    font-family: Georgia;
+    font-family: sans-serif;
     letter-spacing: .01rem;
     font-weight: 400;
     font-style: normal;
@@ -337,16 +337,16 @@ pre {
 .site-title {
   font-size: 64px;
   font-weight: 100;
-  font-family: Georgia;
+  font-family: sans-serif;
   text-transform: capitalize;
   font-weight: 500;
   margin-top: 1em;
 }
 .site-description {
-  font-size: 14px;
+  font-size: 26px;
   letter-spacing: 2px;
   text-indent: 6px;
-  font-family: Georgia;
+  font-family: sans-serif;
 }
 .exclamationMark {
   padding-left: 2em;
@@ -357,7 +357,7 @@ pre {
   font-size: 14px;
   letter-spacing: 2px;
   text-indent: 6px;
-  font-family: Georgia;
+  font-family: sans-serif;
   font-weight: 300;
   padding-top: 5em;
 }
@@ -365,13 +365,13 @@ pre {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-indent: 2px;
-  font-family: Georgia;
+  font-family: sans-serif;
   font-size: 12px;
   text-align:center;
 }
 .page-tagline {
   font-size: 18px;
-  font-family: Georgia;
+  font-family: sans-serif;
   text-align: center;
   text-transform: lowercase;
 }
@@ -437,7 +437,7 @@ pre {
   margin-left: 0;
 }
 .small-site-title {
-  font-family: Georgia;
+  font-family: sans-serif;
 }
 .footer-col-wrapper {
   font-size: 15px;
@@ -445,7 +445,7 @@ pre {
   @extend %clearfix;
 }
 .footer-content {
-  font-family: Georgia;
+  font-family: sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
 }
@@ -519,7 +519,7 @@ pre {
 .post-title {
   font-size: 40px;
   text-align: center;
-  font-family: Georgia;
+  font-family: sans-serif;
 }
 .post-content {
   margin-bottom: $spacing-unit;
