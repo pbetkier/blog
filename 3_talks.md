@@ -8,6 +8,7 @@ permalink: /talks/
 
 I often present my opinions at conferences and meetups. Here are some of them:
 
+- 🇵🇱 [Resilience as a feature](https://www.youtube.com/watch?v=3IFi1GgzPfA) (ATM 13, 2020)
 - 🇵🇱 [Sync, async, reactive – ostateczne starcie](https://www.facebook.com/allegro.tech/videos/263379704514578/) (ATM 11, 2018)
 - 🇬🇧 [Growing Spring-based commons, lessons learned](https://www.youtube.com/watch?v=y6uFC_T_fcc)
 (Spring I/O 2017)
