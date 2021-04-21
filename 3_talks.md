@@ -18,3 +18,6 @@ I often present my opinions at conferences and meetups. Here are some of them:
 - 🇵🇱 O tworzeniu bibliotek, czyli firmowe commonsy z sensem (PyWaw #59, 2016)
 - 🇬🇧 [Drop the clutter: lightweight tests with Spock](https://vimeo.com/120673753) (GeeCON TDD 2015)
 - 🇵🇱 Git internals (Git Kata 2, 2013)
+
+I'm also the host of [Allegro Tech Podcast](https://podcast.allegro.tech/).
+
