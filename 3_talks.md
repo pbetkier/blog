@@ -4,7 +4,7 @@ title : Talks
 permalink: /talks/
 ---
 
-## My talks
+## Talks
 
 I often present my opinions at conferences and meetups. Here are some of them:
 
@@ -19,5 +19,9 @@ I often present my opinions at conferences and meetups. Here are some of them:
 - 🇬🇧 [Drop the clutter: lightweight tests with Spock](https://vimeo.com/120673753) (GeeCON TDD 2015)
 - 🇵🇱 Git internals (Git Kata 2, 2013)
 
-I'm also the host of [Allegro Tech Podcast](https://podcast.allegro.tech/).
+## Podcasts
+
+- 🇵🇱 [Architect role at Allegro](https://podcast.allegro.tech/rola_architekta_w_allegro/) (Allegro Tech Podcast, 2021)
+
+Also, I'm the host of [Allegro Tech Podcast](https://podcast.allegro.tech/).
 
